@@ -1,58 +1,66 @@
-# CAPTCHA Application
+CAPTCHA App Web
 
-A simple and responsive CAPTCHA application built with HTML, CSS, and JavaScript.
+Sebuah aplikasi CAPTCHA sederhana dan responsif yang dibuat menggunakan HTML, CSS, dan JavaScript, cocok untuk latihan atau dipasang di halaman web statis.
 
-## Features
+✨ Fitur
 
-- **CAPTCHA Generation:** Randomly generates a 6-character CAPTCHA using a mix of letters (both uppercase and lowercase) and numbers.
-- **CAPTCHA Reload:** Allows users to reload the CAPTCHA if it's difficult to read.
-- **CAPTCHA Copy:** Users can easily copy the CAPTCHA text to clipboard.
-- **Audio CAPTCHA:** Provides an option to hear the CAPTCHA for accessibility purposes.
-- **Dark Mode:** Switch between dark and light mode for better user experience.
-- **Progress Bar:** Indicates how many characters the user has entered.
-- **Responsive Design:** Ensures a smooth experience on both desktop and mobile devices.
+🔡 Pembangkitan CAPTCHA — otomatis membuat CAPTCHA acak 6 karakter dengan kombinasi huruf besar, huruf kecil, dan angka.
 
-## Installation
+🔄 Reload CAPTCHA — pengguna bisa meminta CAPTCHA baru jika sulit dibaca.
 
-1. **Clone the repository:**
+📋 Salin CAPTCHA — tombol untuk menyalin CAPTCHA ke clipboard.
 
-    ```bash
-    git clone https://github.com/yourusername/captcha-app.git
-    ```
+🔊 Audio CAPTCHA — opsi mendengarkan CAPTCHA untuk aksesibilitas.
 
-2. **Navigate to the project directory:**
+🌙 Mode Gelap/Mode Terang — dukungan tema gelap dan terang untuk pengalaman UI yang lebih baik.
 
-    ```bash
-    cd captcha-app
-    ```
+📱 Responsive — desain responsif agar tampilan optimal di desktop maupun mobile.
 
-3. **Open `index.html` in your browser:**
+🚀 Demo
 
-    You can open the `index.html` file directly in your browser to see the CAPTCHA application in action.
+Buka index.html di browser favoritmu untuk melihat aplikasi CAPTCHA bekerja.
 
-## Usage
+🛠 Pasang & Jalankan
 
-- Enter the CAPTCHA displayed in the input field and click "Check" to validate.
-- Use the "Reload" button to generate a new CAPTCHA.
-- Click on the "Copy" button to copy the CAPTCHA to clipboard.
-- Use the "🔊" button to hear the CAPTCHA read aloud.
-- Toggle between dark and light mode using the "Dark Mode" button.
+Clone repo ini
 
-## Screenshots
+git clone https://github.com/SendPain11/captcha-app-web.git
 
-![Light Mode](lightmode.png)
-![Dark Mode](darkmode.png)
 
-## Technologies Used
+Masuk ke folder proyek
 
-- HTML
-- CSS
-- JavaScript
+cd captcha-app-web
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Buka file index.html di browser
+Kamu bisa buka langsung tanpa server lokal.
 
-## License
+📋 Cara Pakai
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Masukkan teks CAPTCHA yang ditampilkan pada kolom input.
+
+Tekan Check untuk memeriksa apakah input sesuai.
+
+Gunakan tombol Reload untuk mendapatkan CAPTCHA baru.
+
+Gunakan tombol Copy untuk menyalin teks CAPTCHA.
+
+Klik ikon audio untuk mendengar CAPTCHA (jika tersedia).
+
+Ganti antara mode gelap atau terang dengan tombol yang disediakan.
+
+🧰 Teknologi yang Digunakan
+
+🚀 HTML — struktur tampilan.
+
+🎨 CSS — gaya dan tema (termasuk dark mode).
+
+🧠 JavaScript — logika CAPTCHA dan interaksi UI.
+
+🤝 Kontribusi
+
+Kontribusi sangat disambut! Silakan ajukan pull request atau issue untuk fitur atau perbaikan baru.
+
+📄 Lisensi
+
+Proyek ini dilisensikan di bawah MIT License — lihat file LICENSE untuk detail lengkap.
